@@ -15,6 +15,25 @@ function validate() {
         alert("First name is required");
         return false;
     }
+    
+    if (lname == "") {
+        alert("Last name is required");
+        return false;
+    }
+    if(email == "") {
+        alert("Email is required");
+        return false;
+    }
+    if(phone ==""){
+        alert("Phone is required");
+        return false;
+    }
+
+    if(dob == "") {
+        alert("Date of birth is required");
+        return false;
+    }
+
     alert("User details saved successfully!");
     return true;
 }

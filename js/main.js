@@ -1,3 +1,19 @@
+function greetings() {
+    // Declaring a variable
+    // String variable
+    let dumelang = "Hello, World!";
+    // Integer variable
+    let phoneNumber = 75328701;
+    // Float variable
+    let float_x =  70.5;
+    // Boolen variable
+    let is_true = true;
+    // Arrarys variable
+    let cars = ["Honda Fit","BMW", "Mahindra"];
+
+    console.log(dumelang +" did you know a "+ cars[2] +" weighs "+ float_x +" kg?" +" if you doubt  this is "+ is_true + " Then call me at "+ phoneNumber);
+}
+
 function main() {
     // Declaring a variable 
     let string = "Monday";
