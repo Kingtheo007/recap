@@ -1,39 +1,26 @@
 function validate() {
 
     // Fixed variable
-    let name = "Theo";
+    let name = "Theo Motsisi"
 
     // Dynamic variable
-    let fname = document.getElementById('fname').value;
-    let lname = document.getElementById('lname').value;
-    let email = document.getElementById('email').value;
-    let phone = document.getElementById('phone').value;
-    let dob = document.getElementById('dob').value;
+    let fname = document.getElementById("fname").value;
+    let lname =  document.getElementById("lname").value;
 
-    // Conditional statement and logic operator
-    if (fname == "") {
-        alert("First name is required");
+    console.log('Fixed variable: '+ name +'\n'+ 'Dynamic variable: '+ fname);
+
+    // Validation 
+    if(fname == ""){
+        alert("Please enter your name");
         return false;
     }
     
-    if (lname == "") {
-        alert("Last name is required");
+    if(lname == ""){
+        alert("Please enter your last name");
         return false;
     }
-    if(email == "") {
-        alert("Email is required");
-        return false;
-    }
-    if(phone ==""){
-        alert("Phone is required");
-        return false;
-    }
+  
 
-    if(dob == "") {
-        alert("Date of birth is required");
-        return false;
-    }
-
-    alert("User details saved successfully!");
+    alert('Details saved successfully :)')
     return true;
 }
