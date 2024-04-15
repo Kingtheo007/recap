@@ -1,3 +1,50 @@
 function main() {
-    console.log("Hello, world!");
+    // Declaring a variable 
+    let string = "Theo";
+    let number = 30;
+    let float =30.5;
+    let boolean = true;
+  
+    console.log(string + " is "+ number + " years old " );
 }
+
+// Adding two numbers
+let a = 10;
+let b = 5;
+let sum = a + b;
+console.log("The sum of a and b is: " + sum);
+
+
+// Subtracting two numbers
+let c = 10;
+let d = 5;
+let difference = c - d;
+console.log("The difference between c and d is: " + difference);
+
+// Multiplying two numbers
+let e = 10;
+let f = 5;
+let product = e * f;
+console.log("The product of e and f is: " + product);
+
+// Dividing one number by another
+let i = 10;
+let j = 5;
+let quotient = i / j;
+console.log("The quotient of i divided by j is: " + quotient);
+
+// Finding the remainder of the division of one number by another
+let k = 10;
+let l = 3;
+let remainder = k % l;
+console.log("The remainder of k divided by l is: " + remainder);
+
+// Incrementing a number
+let m = 0;
+m++;
+console.log("After incrementing, m is: " + m);
+
+// Decrementing a number
+let n = 10;
+n--;
+console.log("After decrementing, n is: " + n);
