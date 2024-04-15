@@ -1,11 +1,11 @@
 function main() {
     // Declaring a variable 
-    let string = "Theo";
-    let number = 30;
-    let float =30.5;
+    let string = "Monday";
+    let number = 15;
+    let float = 29.5;
     let boolean = true;
-  
-    console.log(string + " is "+ number + " years old " );
+
+    console.log('Today is '+ string +' '+ number +' th of April and the current tempreture is '+ float + ' How true is it that is also cloudy?' + ' very '+ boolean) ;
 }
 
 // Adding two numbers
