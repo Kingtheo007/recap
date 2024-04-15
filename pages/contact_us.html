@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icons/browser.png" type="image/x-icon">
+    <style>
+        /* Define the font */
+        @font-face {
+            font-family: 'Mountain';
+            src: url('assets/fonts/mountain.otf') format('opentype');
+        }
+
+        /* Define the font */
+        @font-face {
+            font-family: 'AlexandriaFLF';
+            src: url('assets/fonts/AlexandriaFLF.ttf') format('truetype');
+        }
+
+        /* Apply the font to the header */
+        header h1 {
+            font-family: 'AlexandriaFLF', Arial, sans-serif;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Basic Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   <div>
+    <form class="form-container">
+        <label for="title">Title:</label>
+        <select id="title" name="title">
+          <option value="mr">Mr.</option>
+          <option value="mrs">Mrs.</option>
+          <option value="ms">Ms.</option>
+          <option value="dr">Dr.</option>
+          <option value="prof">Prof.</option>
+          <option value="other">Other</option>
+        </select>
+      
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+      
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" placeholder="Enter first name" name="lname">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email address" name="email">
+      
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="Enter phone number" name="phone">
+      
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+      
+        <button type="button">Save User</button>
+      </form>
+      
+   </div>
+
+    <footer>
+        <!-- Image placeholders for social media icons -->
+        <img src="assets/icons/facebook.png" style="width: 34px; padding-left: 5px;" alt="Facebook" class="social-media-icon">
+        <img src="assets/icons/twitter.png" style="width: 34px;  padding-left: 5px;" alt="Twitter" class="social-media-icon">
+        <img src="assets/icons/instagram.png" style="width: 34px;  padding-left: 5px;" alt="Instagram" class="social-media-icon">
+        <p>&copy; 2024 A Basic Website by Theo Motsisi. All rights reserved.</p>
+    </footer>
+
+<!-- Linking your external Js file to index.html page -->
+<script src="js/main.js"></script>  
+<script src="js/logical_operator.js"></script>
+</body>
+
+</html>
