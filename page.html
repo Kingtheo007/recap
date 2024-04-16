@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home</title>
-        <!-- Link to external css or stylesheet -->
-        <link rel="stylesheet" href="/css/style.css">
-`       <link rel="icon" type="x-icon" href="/assets/images/browser.png">
-        <style>
-            html,body {
-                height: 100%;
-                background-image: linear-gradient(to bottom, #f12711, #f5af19);
-            }
-        </style>
-    </head>
 
-   <body style="background-image: linear-gradient(to bottom, #f12711, #000);">
+<head>
+    <title>Home</title>
+    <!-- Link to external css or stylesheet -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    `
+    <link rel="icon" type="x-icon" href="/assets/images/browser.png">
+    <style>
+        html,
+        body {
+            height: 100%;
+            align-items: center;
+            color: white;
+            background-image: linear-gradient(to bottom, #f12711, #f5af19);
+        }
+    </style>
+</head>
 
-   </body>
+<body style="background-image: url('https://cdn.pixabay.com/photo/2020/08/23/16/11/abstract-5511271_1280.jpg');">
+
+    <div
+        style="height: 42px; width: 100px; background-color: white; border-color: white; border-radius: 30px; text-align: center;align-items: center; margin-top: 10px;">
+        <p style="font-style: normal; font-weight:bold;">Button</p>
+    </div>
+
+    <hr>
+    <br>
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter name">
+
+        <label for="surname">SUrname:</label>
+        <input id="surname" type="text" placeholder="Enter surname">
+
+        <button>Submit</button>
+
+    </form>
+    <img src="assets/icons/browser.png" alt="Random Picture" />
+    <a>Hello Again</a>
+    <h1>Header</h1>
+    <h6>Dumelang<h6>
+            <!-- Order list -->
+            <ol>
+                <li>Theo</li>
+                <li>Motsisi</li>
+            </ol>
+            <!-- Unordered list -->
+            <ul>
+                <li>Motsisi</li>
+                <li>Theo</li>
+            </ul>
+
+
+            <!-- Speaking of JS -->
+<script>
+    function recap(){
+        let name = "Random name";
+        let surname = "Also a random surname";
+
+        console.log(name +" "+ surname);
+    }
+</script>
+</body>
+
 </html>
