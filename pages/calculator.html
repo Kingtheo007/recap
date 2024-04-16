@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Demo</title>
+    <style>
+        /* Global styles */
+        body, html {
+            height: 100%; /* Make sure the html and body are full height */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            position: relative; /* Needed for absolute positioning */
+        }
+
+        /* Style for the boxes */
+        .box {
+            width: 100px;
+            height: 100px;
+            line-height: 100px; /* Vertical centering of text */
+            text-align: center;
+            border: 2px solid black;
+            position: absolute; /* Positioning relative to the nearest positioned ancestor */
+        }
+
+        /* Position each box in one of the corners */
+        #box1 {
+            top: 10;
+            left: 0;
+            background-color: coral;
+        }
+        #box2 {
+            top: 0;
+            right: 0;
+            background-color: lightgreen;
+        }
+        #box3 {
+            bottom: 0;
+            left: 0;
+            background-color: lightblue;
+        }
+        #box4 {
+            bottom: 0;
+            right: 0;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Box 1</div>
+    <div class="box" id="box2">Box 2</div>
+    <div class="box" id="box3">Box 3</div>
+    <div class="box" id="box4">Box 4</div>
+</body>
+</html>

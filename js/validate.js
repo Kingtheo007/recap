@@ -20,7 +20,6 @@ function validate() {
         return false;
     }
   
-
     alert('Details saved successfully :)')
     return true;
 }
